@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/bootstrap-grid.scss";
+
+//     Utils
+//----------------------
+@import "./utils/variables";
+
+//     Mixin
+//----------------------
+@import "./mixins/mixins";
+
+//     Base
+//----------------------
+@import "./base/common";
+
+//     Layouts
+//----------------------
+@import "./layout/sections", "./layout/containers";
+
+//     Components
+//----------------------
+@import "./components/card", "./components/list", "./components/footer","./components/header";
+
+//     Partials
+//----------------------
+@import "./partials/main";
+
+
+//     Elements
+//----------------------
+@import "./elements/input";
+

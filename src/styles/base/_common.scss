@@ -1,0 +1,103 @@
+/**************** common css start ****************/
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(~/public/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(~/public/assets/fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(~/public/assets/fonts/Roboto-Medium.ttf);
+}
+
+body {
+  font-family: $font_stack;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.929;
+  background-color: #f0f2f5;
+  color: #131313;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+input:hover,
+input:focus {
+  outline: none !important;
+}
+
+
+a {
+  text-decoration: none;
+  @include transform_time(0.5s);
+  &:hover {
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font_stack;
+}
+p {
+  line-height: 1.929;
+  margin-bottom: 7px;
+  font-family: $font_stack;
+  font-size: 16px;
+}
+h1 {
+  font-size: 20px;
+  color: $black-color;
+  font-family: $font_stack;
+}
+
+img {
+  max-width: 100%;
+}
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  @include transform_time(1s);
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.z_index {
+  z-index: 9 !important;
+  position: relative;
+}
+
+.ml-2 {
+  margin-left: 5px;
+}
+.p-0 {
+  padding: 0px !important;
+}
+
+/**************** common css end ****************/

@@ -1,0 +1,13 @@
+.list-group-item {
+    &:nth-child(even) {
+        background-color: #f8f8f8;
+      }
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  background-color: #fff;
+}

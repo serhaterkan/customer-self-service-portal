@@ -1,0 +1,14 @@
+.dashboard {
+  width: 100%;
+}
+
+.dashboard .card-body {
+  height: 400px;
+  overflow-y: scroll;
+}
+.dashboard .list-group span{
+  &:first-child {
+    font-family: $font_stack_bold;
+  }
+
+}

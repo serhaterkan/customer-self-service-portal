@@ -1,0 +1,16 @@
+.container {
+  width: 60%;
+
+  @media #{$medium_device} {
+    width: 90%;
+  }
+  @media #{$tab_device} {
+    width: 90%;
+  }
+  @media #{$small_mobile} {
+    width: 90%;
+  }
+  @media #{$large_mobile} {
+    width: 90%;
+  }
+}
