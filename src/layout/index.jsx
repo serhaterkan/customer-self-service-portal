@@ -1,6 +1,5 @@
 import Footer from "./default/Footer";
 import Header from "./default/Header";
-
 import React from "react";
 import { Outlet } from "react-router-dom";
 

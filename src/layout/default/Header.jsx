@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import { Database, User } from "react-feather";
+import { Database } from "react-feather";
 
 const Header = memo(() => (
   <header>
