@@ -19,7 +19,7 @@ $ npm install
 3. Start the test server and open the URL `http://localhost:4000/` in the browser of your choice to show the form:
 
 ```bash
-$  npm run start
+$  npm run dev
 ```
 
 ## Available Scripts
