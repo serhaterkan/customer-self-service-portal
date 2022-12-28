@@ -22,14 +22,6 @@ $ npm install
 $  npm run dev
 ```
 
-## Available Scripts
-
-Launches the test runner in the interactive watch mode.
-
-```bash
-$  npm run test
-```
-
 ## Live Preview
 
 You can test the application with the link below.
