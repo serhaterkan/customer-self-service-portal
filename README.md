@@ -1,6 +1,6 @@
-# Interactive Type Ahead Search
+# Customer Self Service Portal
 
-[![node version](https://img.shields.io/badge/node-18.0.1-green)](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions-enterprise-linux-fedora-and-snap-packages)
+[![node version](https://img.shields.io/badge/node-18.12.1-green)](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions-enterprise-linux-fedora-and-snap-packages)
 
 ## How to run it locally
 
